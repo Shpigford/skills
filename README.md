@@ -34,8 +34,34 @@ Creates comprehensive README.md documentation for projects. Performs deep codeba
 Write a readme for this project
 ```
 
+---
+
+### build
+
+Feature development pipeline for building major features. Manages a 4-phase workflow:
+
+1. **Research** - Deep exploration of a feature idea
+2. **Implementation** - Create phased implementation plan
+3. **Progress** - Set up progress tracking
+4. **Phase execution** - Implement each phase with tracking
+
+**Subcommands:**
+
 ```
-Create comprehensive documentation for this codebase
+/build research [name]        Deep research on a feature idea
+/build implementation [name]  Create phased implementation plan
+/build progress [name]        Set up progress tracking
+/build phase [n] [name]       Execute implementation phase n
+/build status [name]          Show status and next steps
+```
+
+**Example workflow:**
+
+```
+/build research chat-interface
+/build implementation chat-interface
+/build progress chat-interface
+/build phase 1 chat-interface
 ```
 
 ## Compatibility
