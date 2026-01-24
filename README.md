@@ -64,6 +64,23 @@ Feature development pipeline for building major features. Manages a 4-phase work
 /build phase 1 chat-interface
 ```
 
+---
+
+### conductor-setup
+
+Configure a Rails project to work with [Conductor](https://conductor.app), the Mac app for parallel coding agents. Creates:
+
+- `conductor.json` - Project configuration
+- `bin/conductor-setup` - Setup script for worktrees
+- `script/server` - Server script with port/Redis isolation
+- Updates Rails config files to use `ENV['REDIS_URL']`
+
+**Example usage:**
+
+```
+Set up this project for Conductor
+```
+
 ## Compatibility
 
 These skills work with any Agent Skills Standard-compatible tool:
