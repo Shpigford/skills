@@ -1,6 +1,9 @@
 ---
 name: readme
 description: When the user wants to create or update a README.md file for a project. Also use when the user says "write readme," "create readme," "document this project," "project documentation," or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.
+metadata:
+  author: Shpigford
+  version: "1.0"
 ---
 
 # README Generator
