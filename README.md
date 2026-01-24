@@ -81,6 +81,33 @@ Configure a Rails project to work with [Conductor](https://conductor.app), the M
 Set up this project for Conductor
 ```
 
+---
+
+### favicon
+
+Generate a complete set of favicons from a source image. Auto-detects project type (Rails, Next.js, Vite, static HTML, etc.) and places files in the correct location.
+
+**Generates:**
+- `favicon.ico` (multi-resolution: 16x16, 32x32, 48x48)
+- `favicon-96x96.png`
+- `apple-touch-icon.png` (180x180)
+- `web-app-manifest-192x192.png`
+- `web-app-manifest-512x512.png`
+- `site.webmanifest`
+- `favicon.svg` (if source is SVG)
+
+**Requires:** ImageMagick v7+ (`brew install imagemagick`)
+
+**Example usage:**
+
+```
+/favicon logo.png
+```
+
+```
+/favicon assets/icon.svg
+```
+
 ## Compatibility
 
 These skills work with any Agent Skills Standard-compatible tool:
