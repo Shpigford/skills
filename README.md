@@ -24,6 +24,7 @@ git clone https://github.com/Shpigford/skills.git ~/.skills/shpigford
 | [issues](#issues) | Create, list, and view GitHub issues |
 | [new-rails-project](#new-rails-project) | Create opinionated Rails 8 + React projects |
 | [readme](#readme) | Generate comprehensive project documentation |
+| [screenshots](#screenshots) | Generate marketing screenshots with Playwright |
 
 ---
 
@@ -157,6 +158,30 @@ Includes testing setup (minitest, mocha, VCR) and code quality tools (RuboCop, B
 
 ```
 /new-rails-project my-app
+```
+
+---
+
+### screenshots
+
+Generate marketing-quality screenshots of your app using Playwright. Captures at true HiDPI (2x retina) resolution.
+
+**Features:**
+- Auto-detects routes and features from your codebase
+- Handles authentication automatically
+- Produces 2880x1800 retina-quality images
+- Supports dark mode, modals, and full-page captures
+
+**Requires:** Playwright (`npm install -D playwright`)
+
+**Example usage:**
+
+```
+/screenshots http://localhost:3000
+```
+
+```
+Generate screenshots for Product Hunt
 ```
 
 ## Compatibility
