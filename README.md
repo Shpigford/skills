@@ -16,6 +16,17 @@ git clone https://github.com/Shpigford/skills.git ~/.skills/shpigford
 
 ## Available Skills
 
+| Skill | Description |
+|-------|-------------|
+| [build](#build) | Feature development pipeline - research, plan, track, implement |
+| [conductor-setup](#conductor-setup) | Configure Rails projects for Conductor |
+| [favicon](#favicon) | Generate favicon sets from source images |
+| [issues](#issues) | Create, list, and view GitHub issues |
+| [new-rails-project](#new-rails-project) | Create opinionated Rails 8 + React projects |
+| [readme](#readme) | Generate comprehensive project documentation |
+
+---
+
 ### readme
 
 Creates comprehensive README.md documentation for projects. Performs deep codebase exploration before writing, covering:
