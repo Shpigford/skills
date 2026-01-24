@@ -127,6 +127,27 @@ Interact with GitHub issues using the `gh` CLI. Create, list, and view issues wi
 /issues
 ```
 
+---
+
+### new-rails-project
+
+Create a new Rails project with an opinionated modern stack:
+
+- **Rails 8** with PostgreSQL (UUID primary keys, timestamptz)
+- **Inertia.js + React 19** with TypeScript
+- **Vite 5** for frontend bundling
+- **Tailwind CSS 4**
+- **Sidekiq 8** with Redis for background jobs
+- **Redis** for sessions and caching
+
+Includes testing setup (minitest, mocha, VCR) and code quality tools (RuboCop, Brakeman).
+
+**Example usage:**
+
+```
+/new-rails-project my-app
+```
+
 ## Compatibility
 
 These skills work with any Agent Skills Standard-compatible tool:
