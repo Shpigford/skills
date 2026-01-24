@@ -108,6 +108,25 @@ Generate a complete set of favicons from a source image. Auto-detects project ty
 /favicon assets/icon.svg
 ```
 
+---
+
+### issues
+
+Interact with GitHub issues using the `gh` CLI. Create, list, and view issues with guided prompts.
+
+**Actions:**
+- **Create** - Open new issues with title, body, labels (guides you through bug reports vs features)
+- **List** - View open issues with filters (all, assigned to me, by label)
+- **View** - See details of a specific issue by number
+
+**Requires:** GitHub CLI (`gh`) authenticated
+
+**Example usage:**
+
+```
+/issues
+```
+
 ## Compatibility
 
 These skills work with any Agent Skills Standard-compatible tool:
