@@ -80,7 +80,7 @@ Feature development pipeline for building major features. Manages a 4-phase work
 
 ### conductor-setup
 
-Configure a Rails project to work with [Conductor](https://conductor.app), the Mac app for parallel coding agents. Creates:
+Configure a Rails project to work with [Conductor](https://www.conductor.build/), the Mac app for parallel coding agents. Creates:
 
 - `conductor.json` - Project configuration
 - `bin/conductor-setup` - Setup script for worktrees
