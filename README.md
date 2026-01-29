@@ -19,6 +19,7 @@ git clone https://github.com/Shpigford/skills.git ~/.skills/shpigford
 | Skill | Description |
 |-------|-------------|
 | [build](#build) | Feature development pipeline - research, plan, track, implement |
+| [chat-widget](#chat-widget) | Build real-time support chat with floating widget |
 | [conductor-setup](#conductor-setup) | Configure Rails projects for Conductor |
 | [favicon](#favicon) | Generate favicon sets from source images |
 | [issues](#issues) | Create, list, and view GitHub issues |
@@ -74,6 +75,34 @@ Feature development pipeline for building major features. Manages a 4-phase work
 /build implementation chat-interface
 /build progress chat-interface
 /build phase 1 chat-interface
+```
+
+---
+
+### chat-widget
+
+Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff.
+
+**Features:**
+- Floating chat button with unread badge
+- WebSocket-based real-time messaging
+- Admin dashboard with active/archived chat management
+- Email notifications (delayed to avoid spam)
+- Framework-agnostic architecture guide
+
+**Includes:**
+- Data model schemas (chats, messages)
+- API endpoint specifications
+- WebSocket channel implementations
+- Frontend components (React, Vue examples)
+- Framework-specific code (Rails, Laravel, Next.js)
+
+**Triggers:** "add a live chat widget", "build customer support chat", "create real-time messaging"
+
+**Example usage:**
+
+```
+Add a live chat widget to the app
 ```
 
 ---
