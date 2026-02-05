@@ -2,6 +2,8 @@
 name: screenshots
 argument-hint: [url]
 description: Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or documentation.
+allowed-tools: Bash(npx *), Bash(node *), Bash(mkdir *), Bash(ls *), Bash(rm *), Bash(sips *)
+context: fork
 metadata:
   author: Shpigford
   version: "1.0"
