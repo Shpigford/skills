@@ -1,6 +1,7 @@
 ---
 name: issues
 description: Interact with GitHub issues - create, list, and view issues.
+allowed-tools: Bash(gh *)
 metadata:
   author: Shpigford
   version: "1.0"
